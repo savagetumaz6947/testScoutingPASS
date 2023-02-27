@@ -737,7 +737,7 @@ function configure() {
     idx = addElement(pmt, idx, element);
   });
 
-  if (!enableGoogleSheets) {
+  if (enableGoogleSheets) {
     document.getElementById("submit").style.display = "none";
   }
 
