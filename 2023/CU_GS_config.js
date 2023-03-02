@@ -17,7 +17,7 @@ var config_data = `
       "code": "e",
       "gsCol": "event",
       "type": "event",
-      "defaultValue": "2023test",
+      "defaultValue": "2023AZGL",
       "required": "true",
       "disabled": "true"
     },
