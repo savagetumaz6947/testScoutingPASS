@@ -1493,7 +1493,7 @@ function copyData() {
 
 window.onload = function () {
   if ("serviceWorker" in navigator) {
-    navigator.serviceWorker.register("../../service-worker.js");
+    navigator.serviceWorker.register("../../service-worker.js", {scope: '/testScoutingPASS/'});
     console.log("Successfully register SW");
   }
   let ret = configure();
