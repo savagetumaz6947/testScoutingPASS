@@ -1,6 +1,7 @@
 const cacheName = "cache-v1";
 // List the files to precache
 const precacheResources = [
+  "/",
   "/index.html",
   "/pit.html",
   "/resources/css/scoutingPASS.css",
