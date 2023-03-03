@@ -1,14 +1,16 @@
 const cacheName = "cache-v1";
+var GHPATH = '/testScoutingPASS';
+
 // List the files to precache
 const precacheResources = [
-  "/",
-  "/index.html",
-  "/pit.html",
-  "/resources/css/scoutingPASS.css",
-  "/resources/js/easy.qrcode.min.js",
-  "/resources/js/googleSheets.js",
-  "/resources/js/scoutingPASS.js",
-  "/resources/js/TBAInterface.js",
+  "${GHPATH}/",
+  "${GHPATH}/index.html",
+  "${GHPATH}/pit.html",
+  "${GHPATH}/resources/css/scoutingPASS.css",
+  "${GHPATH}/resources/js/easy.qrcode.min.js",
+  "${GHPATH}/resources/js/googleSheets.js",
+  "${GHPATH}/resources/js/scoutingPASS.js",
+  "${GHPATH}/resources/js/TBAInterface.js",
 ];
 
 // When the service worker is installing, open the cache and add the precache resources to it
